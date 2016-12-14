@@ -1,0 +1,275 @@
+/* this is where all of your CSS styles go */
+#random {
+	width: 1351px;
+	height: 630px;
+	position: absolute;
+	top: 80px;
+	z-index: 0;
+}
+
+#umn {
+	left: 10%;
+	top: 0px;
+	width: 332px;
+	height: 85px;
+	background-image: url("../images/umn.jpg");
+	position: absolute;
+}
+
+.header {
+	width: 700px;
+	height: 30px;
+	position: absolute;
+	right: -230px;
+	top: 30px;
+	border: 0px red solid;
+	padding-right: 0px;
+}
+
+a {
+	text-decoration: none;
+	font-family: Montserrat;
+}
+
+.button {
+	margin-right: 120px;
+	float: left;
+}
+
+a.hover {
+	color: black;
+}
+
+#search {
+	background-image: url("../images/search.png");
+	height: 22px;
+	width: 22px;
+	position: absolute;
+	right: 300px;
+	top: 0px;
+}
+
+
+/*Eugene's CSS*/
+
+html,body { /* we need to set the width and height to 100% */
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+#container { /* in order to hide the #green, we will need to use #container to hide it through "overflow: hidden" */
+	width: 1351px;
+	height: 5000px;
+	position: absolute;
+	overflow: hidden;
+	border: solid blue 0px;
+	left: 50%;
+	margin-left: -675.5px;
+}
+
+#nav_wrapper {
+	height: 629px;
+	position: fixed;
+	top: 80px;
+	padding-top: 100px;
+	border: solid blue 0px;
+	right: -500px; /* we set this to be a negative value so that we cannot see it */
+}
+
+a {
+	display: block;
+	color: black;
+	text-decoration: none;
+	position: relative;
+	z-index: 5;
+	opacity: 1; /* makes sure that the buttons are always on top and can be clicked */
+}
+
+
+#nav {
+	width: 50px;
+	height: 629px;
+	float: right;
+	margin-left: 20px; /* makes sure that the yellow buttons and the green-hidden area are next to each other */
+}
+
+#one {
+	width: 50px;
+	height: 50px;
+	background-color: #333333;
+	text-decoration: black;
+	opacity: 0.2;
+	text-align: center;
+	top: 0px;
+}
+
+#two {
+	width: 50px;
+	height: 50px;
+	background-color: #333333;
+	text-align: center;
+}
+
+#three {
+	width: 50px;
+	height: 50px;
+	background-color: #333333;
+	opacity: 0.2;
+	text-align: center;
+}
+
+#four {
+	width: 50px;
+	height: 50px;
+	background-color: #333333;
+	opacity: 0.2;
+	text-align: center;
+}
+
+#five {
+	width: 50px;
+	height: 50px;
+	background-color: #333333;
+	opacity: 0.2;
+	text-align: center;
+}
+
+#six {
+	width: 50px;
+	height: 200px;
+	background-color: #333333;
+	opacity: 0.2;
+	text-align: center;
+}
+
+#menu {
+	width: 500px;
+	height: 500px;
+	background-color: #333333;
+	float: right;
+	top: 0px;
+	border: 1px green solid;
+}
+
+.menu_btns {
+	margin-top: 31px;
+}
+
+.menu_btns:first-child {
+	margin-top: 0px;
+}
+
+#one_nav {
+	width: 200px;
+	height: 70px;
+	display: none; /* this is necessary so that the gray sub-menu doesn't appear from the start */
+	background-color: white;
+	opacity: 0.8;
+	position: absolute; /* we use absolute positioning to deal with any potential overlaps */
+	top: 100px; /* this number should be set to 0 or some low-value */
+	right: 550px;
+}
+
+#two_nav {
+	width: 200px;
+	height: 190px;
+	float: right;
+	display: none;
+	background-color: white;
+	opacity: 0.8;
+	position: absolute;
+	top: 150px; /* when you apply this same style for additional buttons, this value must be different for all buttons. */
+	right: 550px;
+}
+
+#three_nav {
+	width: 200px;
+	height: 250px;
+	float: right;
+	display: none;
+	background-color: white;
+	opacity: 0.8;
+	position: absolute;
+	top: 200px; /* when you apply this same style for additional buttons, this value must be different for all buttons. */
+	right: 550px;
+}
+
+#four_nav {
+	width: 200px;
+	height: 200px;
+	float: right;
+	display: none;
+	background-color: white;
+	opacity: 0.8;
+	position: absolute;
+	top: 250px; /* when you apply this same style for additional buttons, this value must be different for all buttons. */
+	right: 550px;
+}
+
+#five_nav {
+	width: 200px;
+	height: 100px;
+	float: right;
+	display: none;
+	background-color: white;
+	opacity: 0.8;
+	position: absolute;
+	top: 300px; /* when you apply this same style for additional buttons, this value must be different for all buttons. */
+	right: 550px;
+}
+
+#six_nav {
+	width: 200px;
+	height: 180px;
+	float: right;
+	display: none;
+	background-color: white;
+	opacity: 0.8;
+	position: absolute;
+	top: 350px; /* when you apply this same style for additional buttons, this value must be different for all buttons. */
+	right: 550px;
+}
+
+
+
+#info {
+	position: relative;
+	top: 750px;
+	left: 80px;
+	width: 900px;
+	height: 100%;
+	font-family: Montserrat;
+}
+
+h1 {
+	font-family: alfa slab one;
+	font-size: 40px;
+	letter-spacing: 2px;
+}
+
+h3 {
+	margin-left: 50px;
+	font-size: 15px;
+	line-height: 10px;
+}
+
+h2 {
+	line-height: 10px;
+}
+
+h4 {
+	font-size: 10pt;
+	margin-left: 50px;
+	line-height: 16px;
+}
+
+p {
+	line-height: 22px;
+}
+
+
+
+
+
+
